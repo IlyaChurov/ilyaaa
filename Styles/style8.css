@@ -1,0 +1,372 @@
+  ul[class],
+ol[class] {
+  padding: 0;
+}
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+
+}
+
+body{
+  background-color: rgb(49, 45, 45);
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex; /* Создаем гибкую структуру */
+  flex-direction: column; /* Располагаем элементы вертикально */
+  min-height: 100vh; /* Минимальная высота равна высоте вьюпорта */
+}
+
+
+
+
+a{
+    color:#ffffff;
+    text-decoration: none;  
+    transition: opacity .25s ease;
+  }
+  a:hover{
+    opacity: .7;
+  }
+
+
+h1{
+  font-size: 45px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 16px;
+    margin-left: 25%;
+    color:#ffff;
+}
+
+
+h2{
+  color: #fff;
+  font-size: 45px;
+}
+
+  .header{
+    /*background-image: url(https://hodosauto.ru/templates/images/1.jpeg?1);*/  
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+ align-items:center ;
+  padding: 5px;
+  margin-left: 10px;
+
+}
+
+.logo__home{
+  display: flex;
+  justify-content: center;
+}
+
+.banner__redact{
+  width: 20%;
+
+}
+
+
+  .menu-element__link{
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+    font-size: 30px;
+  }
+
+  .main{  
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+     width: 75%;
+  }
+
+
+  .foto{  
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    width: 58.33333333%;
+    width: 100%;
+    height: auto;
+  }
+
+  .galery{
+    height: 415px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    user-select: none;  
+    text-align: center;
+}
+  
+.span{
+  background-image: url(https://hodosauto.ru/uploads/price/472/d45d4c91c2b43c1560b187adbea1f8c3.jpg);
+    display: block;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.foto{
+  display: flex;
+  margin-left: 10%;
+  align-items: center;
+}
+.top, .bot{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+}
+.asd{
+  display: flex;
+}
+
+
+
+#but{
+
+  color: rgb(255, 0, 0);
+  background-color: rgb(241, 154, 154);
+  width: 300px;
+  box-sizing: border-box;
+  appearance: none;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 20px;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+button{
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px red inset;
+  }
+
+  
+}
+
+.text{
+  background-color: #424141;
+  opacity: 0.8;
+  margin: 10% 3%;
+  padding: 1% 10%;
+  border-radius: 5%;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  font-size: 60px;
+}
+
+.text2{
+  color: #c2bdbdc5;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6%;
+  font-size: 25px;
+}
+
+p{
+  margin-bottom: 2%;
+}
+
+.com{
+  color: #c2bdbdc5;
+  font-size: 25px;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+
+
+
+
+
+
+  footer{
+    margin-top: auto;
+    background-color:#424141;
+    opacity: 0.8;
+    padding:5px;
+    border-radius: 3px;
+      }
+    
+      .social{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+    
+    
+      .ceti3{
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+      .ceti4{
+        width: 35px;
+        border-radius: 50%;
+      }
+    
+      .ceti5{
+        width: 50px;
+        border-radius: 5px;
+      }
+    
+      .footers{
+        color:rgb(236, 231, 231);
+        margin-top: 5px;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 40%;
+      }
+
+
+      @media (min-width: 768px) {
+        .top, .bot {
+            flex-direction: row; /* Горизонтальное расположение на больших экранах */
+        }
+        #but{
+          width: 140px;
+          font-size: 10px;
+        }
+        .text{
+          font-size: 17px;
+        }
+
+        .img{
+          width: 430px;
+        }
+  
+        .img2{
+          width: 215px;
+        } 
+
+        p{
+          margin-right: 40%;
+        }
+
+        h1{
+          font-size: 35px;
+        }
+
+        
+        
+    }
+
+      @media screen and (max-width: 480px) {
+        /* Стили для очень маленьких экранов (телефоны) */
+        .text {
+        font-size: 30px; /* Уменьшаем размер текста */
+        margin: 5% 2%; /* Уменьшаем отступы */
+        padding: 1% 5%;
+        }
+        .text2, .com {
+        font-size: 16px; /* Уменьшаем размер дополнительного текста */
+        margin-left: 2%;
+        }
+        }
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+        /* Стили для планшетов */
+        .text {
+        font-size: 40px;
+        margin: 7% 3%;
+        padding: 1% 7%;
+        }
+        .text2, .com {
+        font-size: 18px;
+        margin-left: 4%;
+        }
+        }
+
+
+      @media screen and (min-width:320px) and (max-width: 767px){
+
+        h1{
+          font-size: 17px;
+        }
+
+        .top, .bot {
+          display: flex;
+          flex-direction: column; /* Вертикальное расположение на маленьких экранах */
+          align-items: center; /* Центрирование элементов */
+          justify-content: space-around;
+      }
+
+      .img{
+        width: 200px;
+      }
+
+      .img2{
+        width: 100px;
+      } 
+
+      #but{
+        width: 140px;
+        font-size: 10px;
+      }
+
+      .text{
+        font-size: 17px;
+      }
+
+      p{
+        margin-right: 7%;
+      }
+      .asd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36%;
+}
+      }
+
+
+

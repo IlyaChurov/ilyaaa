@@ -1,0 +1,427 @@
+ul[class],
+ol[class] {
+  padding: 0;
+}
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+
+}
+
+body{
+  background-color: rgb(49, 45, 45);
+  height: 100%;
+}
+
+
+
+
+
+
+a{
+    color:#ffffff;
+    text-decoration: none;  
+    transition: opacity .25s ease;
+  }
+  a:hover{
+    opacity: .7;
+  }
+
+
+h1{
+  font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 16px;
+    color:#ffff;
+}
+
+  .header{
+    /*background-image: url(https://hodosauto.ru/templates/images/1.jpeg?1);*/  
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+ align-items:center ;
+  padding: 5px;
+  margin-left: 10px;
+
+}
+
+.logo__home{
+  display: flex;
+  justify-content: center;
+}
+
+.banner__redact{
+  width: 20%;
+
+}
+
+
+  .menu-element__link{
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+    font-size: 30px;
+  }
+
+
+
+
+
+
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    
+  }
+
+  .FIT1{
+    background-color: #312f2f;
+    margin: 1% 30%;
+
+
+  }
+  .FIT{
+    background-color:rgb(22, 22, 22);
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  /* Стиль кнопок */
+  .fit {
+    padding: 12px 26px;
+    background-color: #353232;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 3%;
+  }
+  
+  /* Добавить светло-серый фон на наведении курсора мыши */
+  .fit:hover {
+    background-color: #ddd;
+  }
+  
+  /* Добавить темный фон для активной кнопки */
+  .fit:active {
+    background-color: #666;
+    color: white;
+  }
+
+
+
+
+
+
+.carts{
+display:flex;
+flex-direction: column;
+justify-self: center;
+margin-top: 30px;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+.cartOne{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(60, 66, 70);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  
+}
+
+#fon__cart{
+    width: 450px;
+    
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+
+.FON_CART1{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;  
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://hodosauto.ru/uploads/price/472/fbec82c037603101b76dcdf01a0abdb9.jpg);
+    background-size: cover;
+    
+}
+
+
+.FON_CART2{
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://motorsold.ru/uploads/price/1495/c7d67eebbf09e2077ec5b1379aac592f.jpg);
+    background-size: cover;
+    
+}
+.FON_CART3{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://motorsold.ru/uploads/price/4191/1b8bbfe1950c877b4ea554428ea81f4d.jpg);
+    background-size: cover;
+    
+}
+.FON_CART4{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://motorsold.ru/uploads/price/6101/3a17d5e9b80fa63a160c26f7c97aa020.jpg);
+    background-size: cover;
+    
+}
+.FON_CART5{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://poletomania.ru/upload/medialibrary/557/fadec.jpg);
+    background-size: cover;
+    
+}
+.FON_CART6{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://sdelanounas.ru/i/c/2/r/f_c2RlbGFub3VuYXMucnUvdXBsb2Fkcy8xLzIvMTI3MTUyNjA2OTA3OF9vcmlnLmpwZWc_X19pZD0xMDY5Nzg=.jpeg);
+    background-size: cover;
+    
+}
+.FON_CART7{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://st19.stpulscen.ru/images/product/180/600/197_original.jpeg);
+    background-size: cover;
+}
+.FON_CART8{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://fbi.cults3d.com/uploaders/20967920/illustration-file/46593144-30d1-4736-ab14-7d1bffda0d67/IMG_0603.jpg);
+    background-size: cover;
+}
+.FON_CART9{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://m.nkj.ru/upload/iblock/edc/edc4ab21543a4d5044e7931e0c1d3cf4.jpg);
+    background-size: cover;
+}
+.FON_CART10{
+  width: 100%;
+  max-width: 450px;
+    height: 250px;
+    max-height: 252px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 2%;
+
+    background-image: url(https://a.d-cd.net/d4d4905s-480.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+#cart1{   
+display: flex;
+justify-content: center;
+color:#fff;
+font-size: 100%;
+align-self: center;
+margin-left: 10px;
+
+
+}
+
+.many{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 3%;
+}
+
+
+
+#cart1__1{
+    display: flex;
+    justify-content: end;
+    align-self: self-end;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 1000;
+    
+    
+    
+}
+
+#cart1__2{
+  color: aliceblue;
+  display:flex;
+  align-items: center;
+  font-size: 20px;
+ margin-right: 310px;
+ 
+ padding: 10px;
+ margin-left: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+footer{
+background-color:#424141;
+opacity: 0.8;
+padding:5px;
+border-radius: 3px;
+  }
+
+  .social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+
+  .ceti3{
+    width: 35px;
+    border-radius: 50%;
+  }
+
+  .ceti4{
+    width: 35px;
+    border-radius: 50%;
+  }
+
+  .ceti5{
+    width: 50px;
+    border-radius: 5px;
+  }
+
+  .footers{
+    color:rgb(236, 231, 231);
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+
+  @media screen and (min-width:320px) and (max-width: 767px)
+  {
+    .FIT1
+    {
+      margin: 1%;
+    }
+
+    .fit {
+      padding: 2px 2px;
+    }
+
+    .FON_CART1,.FON_CART2,.FON_CART3,.FON_CART4,.FON_CART5,.FON_CART6,.FON_CART7,.FON_CART8,.FON_CART9,.FON_CART10 {
+      width: 100%;
+      }
+
+
+      .carts {
+        margin-left: 2%; /* Ещё уменьшаем отступ */
+        margin-right: 2%; /* Ещё уменьшаем отступ */
+      }
+    
+      #cart1__1 {
+        font-size: 18px; /* Ещё уменьшаем размер шрифта */
+      }
+    
+      #cart1__2 {
+        font-size: 14px; /* Ещё уменьшаем размер шрифта */
+        margin-right: 40%; /* Ещё уменьшаем отступ */
+        padding: 3px; /* Ещё уменьшаем отступ */
+      }
+
+  }
+
+  
