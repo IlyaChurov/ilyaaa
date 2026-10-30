@@ -1,0 +1,4 @@
+import { Link } from 'react-router-dom'
+import FilmCard from '../components/FilmCard.jsx'
+import { films } from '../data/films.js'
+export default function Favorites({favorites,toggleFavorite}){const selected=films.filter(f=>favorites.includes(f.id));return <section className="page"><div className="container"><p className="eyebrow">Сохранено в браузере</p><h1 className="page-title">Мой список</h1><p className="page-sub">Любимые фильмы сохраняются даже после перезагрузки страницы.</p>{selected.length?<div className="catalog-grid">{selected.map(f=><FilmCard key={f.id} film={f} favorite toggleFavorite={toggleFavorite}/>)}</div>:<div className="empty-state"><h2>Список пока пуст</h2><p>Добавьте фильмы из каталога или подборок.</p><Link className="btn btn-accent" to="/catalog">Перейти в каталог</Link></div>}</div></section>}

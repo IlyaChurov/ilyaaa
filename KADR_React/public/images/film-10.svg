@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="poster-art" viewBox="0 0 200 300" role="img" aria-label="Постер фильма «Тень ворона»: птица на фоне луны">
+            <defs><linearGradient id="pg10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1a33"/><stop offset="1" stop-color="#0c0c18"/></linearGradient></defs>
+            <rect width="200" height="300" fill="url(#pg10)"/>
+            <circle cx="140" cy="85" r="32" fill="#cdd6f4"/>
+            <circle cx="130" cy="78" r="6" fill="#aab6d8"/><circle cx="150" cy="95" r="4" fill="#aab6d8"/>
+            <path d="M40 165 Q70 132 100 158 Q130 132 160 165 Q130 152 100 172 Q70 152 40 165 Z" fill="#07070f"/>
+            <line x1="0" y1="230" x2="60" y2="215" stroke="#2a2a4a" stroke-width="3"/>
+            <line x1="200" y1="240" x2="140" y2="222" stroke="#2a2a4a" stroke-width="3"/>
+            <text x="100" y="258" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">ТЕНЬ</text>
+            <text x="100" y="277" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">ВОРОНА</text>
+          </svg>

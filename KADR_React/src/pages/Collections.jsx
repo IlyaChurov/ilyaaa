@@ -1,0 +1,3 @@
+import FilmCard from '../components/FilmCard.jsx'
+import { collections, films } from '../data/films.js'
+export default function Collections({favorites,toggleFavorite}){return <section className="page"><div className="container"><p className="eyebrow">Готовые варианты</p><h1 className="page-title">Подборки</h1><p className="page-sub">Три способа быстро выбрать кино на сегодняшний вечер.</p>{collections.map(c=><section className="collection" key={c.title}><div className="section-head"><div><h2>{c.title}</h2><p>{c.text}</p></div></div><div className="evening-row">{c.ids.map(id=>{const f=films.find(x=>x.id===id);return <FilmCard key={id} film={f} compact favorite={favorites.includes(id)} toggleFavorite={toggleFavorite}/>})}</div></section>)}</div></section>}

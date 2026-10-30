@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="poster-art" viewBox="0 0 200 300" role="img" aria-label="Постер фильма «Код Шёлкового моста»: мост с тросами ночью">
+            <defs><linearGradient id="pg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#232a4a"/><stop offset="1" stop-color="#0f1320"/></linearGradient></defs>
+            <rect width="200" height="300" fill="url(#pg2)"/>
+            <path d="M0 140 Q100 60 200 140" fill="none" stroke="#3a466e" stroke-width="2"/>
+            <line x1="70" y1="97" x2="70" y2="168" stroke="#3a466e" stroke-width="1.5"/>
+            <line x1="100" y1="85" x2="100" y2="168" stroke="#3a466e" stroke-width="1.5"/>
+            <line x1="130" y1="97" x2="130" y2="168" stroke="#3a466e" stroke-width="1.5"/>
+            <rect x="52" y="90" width="10" height="150" fill="#0b0f1a"/><rect x="138" y="90" width="10" height="150" fill="#0b0f1a"/>
+            <rect x="0" y="168" width="200" height="6" fill="#141a2c"/>
+            <rect x="0" y="200" width="200" height="100" fill="#0a0e18"/>
+            <rect x="20" y="216" width="10" height="14" fill="#39D5B3" opacity=".5"/>
+            <rect x="60" y="226" width="10" height="14" fill="#39D5B3" opacity=".3"/>
+            <rect x="150" y="220" width="10" height="14" fill="#39D5B3" opacity=".45"/>
+            <text x="100" y="240" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">КОД</text>
+            <text x="100" y="259" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">ШЁЛКОВОГО</text>
+            <text x="100" y="278" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">МОСТА</text>
+          </svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="poster-art" viewBox="0 0 200 300" role="img" aria-label="Постер фильма «Тихий берег»: закатное солнце над морем">
+            <defs><linearGradient id="pg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2130"/><stop offset="1" stop-color="#150d16"/></linearGradient></defs>
+            <rect width="200" height="300" fill="url(#pg4)"/>
+            <circle cx="100" cy="120" r="52" fill="#e8a37a" opacity=".18"/>
+            <circle cx="100" cy="120" r="36" fill="#e8a37a"/>
+            <path d="M60 70 q6 -6 12 0 M128 60 q6 -6 12 0" stroke="#A6B1C0" stroke-width="1.5" fill="none"/>
+            <rect x="0" y="200" width="200" height="100" fill="#1c1016"/>
+            <rect x="70" y="212" width="60" height="3" fill="#e8a37a" opacity=".5"/>
+            <rect x="85" y="226" width="30" height="3" fill="#e8a37a" opacity=".35"/>
+            <rect x="60" y="242" width="80" height="2" fill="#e8a37a" opacity=".25"/>
+            <text x="100" y="262" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">ТИХИЙ</text>
+            <text x="100" y="281" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">БЕРЕГ</text>
+          </svg>

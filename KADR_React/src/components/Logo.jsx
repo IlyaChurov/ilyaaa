@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom'
+export default function Logo() { return <Link className="logo" to="/" aria-label="КАДР — на главную"><svg className="logo-icon" viewBox="0 0 44 44" aria-hidden="true"><rect x="3" y="8" width="38" height="28" rx="6" fill="none" stroke="currentColor" strokeWidth="2.5"/><path d="M9 12.5h5v5H9zm8 0h5v5h-5zm8 0h5v5h-5zM9 26.5h5v5H9zm8 0h5v5h-5zm8 0h5v5h-5z" fill="currentColor"/><path d="m19 19.5 5.5 2.7L19 25z" fill="#f3f6fa"/></svg><span className="logo-text">КА<span>Д</span>Р</span></Link> }

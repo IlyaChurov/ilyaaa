@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="poster-art" viewBox="0 0 200 300" role="img" aria-label="Постер фильма «Грозовой рубеж»: молния над горами">
+            <defs><linearGradient id="pg8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16233f"/><stop offset="1" stop-color="#0a1020"/></linearGradient></defs>
+            <rect width="200" height="300" fill="url(#pg8)"/>
+            <polygon points="0,220 60,120 120,220" fill="#1c2c4d"/>
+            <polygon points="80,220 150,100 200,190 200,220" fill="#14203a"/>
+            <polygon points="110,40 92,110 106,110 88,180 128,96 112,96 130,40" fill="#f2c94c"/>
+            <line x1="30" y1="60" x2="18" y2="90" stroke="#A6B1C0" stroke-width="1.5" opacity=".4"/>
+            <line x1="70" y1="40" x2="58" y2="70" stroke="#A6B1C0" stroke-width="1.5" opacity=".4"/>
+            <line x1="160" y1="50" x2="148" y2="80" stroke="#A6B1C0" stroke-width="1.5" opacity=".4"/>
+            <line x1="190" y1="80" x2="178" y2="110" stroke="#A6B1C0" stroke-width="1.5" opacity=".4"/>
+            <rect x="0" y="220" width="200" height="80" fill="#070c16"/>
+            <text x="100" y="252" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">ГРОЗОВОЙ</text>
+            <text x="100" y="271" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="1.5" fill="#F3F6FA">РУБЕЖ</text>
+          </svg>
